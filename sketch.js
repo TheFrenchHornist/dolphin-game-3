@@ -74,7 +74,7 @@ function draw() {
       obstacleGroup.destroyEach();
     }
 
-    if(health === 75){
+    if(health === 0){
       gameState = "end";
     }
   
